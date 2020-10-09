@@ -1,0 +1,151 @@
+@media screen and (max-width: 680px) {
+
+}
+
+@media screen and (min-width: 680px) and (max-width: 1279) {
+
+}
+
+@media screen and (min-width: 1280px) {
+
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li, a, button {
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+    color: crimson;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 20% 10px 20%;
+}
+
+h1 {
+    background-color: rgb(255, 255, 255, 0.3);
+    font-size: 3rem;
+    color: white;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    height: 4rem;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li, a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li, a:hover {
+    color: gold;
+}
+
+button {
+    padding: 5px 10px;
+    background-color:crimson;
+    color: white;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: gold;
+}
+
+
+.background {
+    height: 720px;
+    text-align: center;
+    background: url(../images/background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.title-first {
+    height: 100%;
+    padding: 22% 24%;
+}
+
+.cta-section {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    background: url(../images/cine.png) no-repeat;
+    background-size: 700px 250px;
+    background-position: center;
+    
+}
+
+/* @media screen and (min-width: 1850px) { 
+    .cta-section {
+        background: url(../images/cine.png) no-repeat;
+        background-size: 36% 80%;
+        background-position: center;
+    }
+}
+*/
+
+.button-fs {
+    padding: 30px;
+}
+
+.home-container {
+    background: linear-gradient(#f6f6f6 0,#fff 100%);
+    background-position: top;
+    padding: 40px 20% 30px 20%;
+    height: 720px;
+    text-align: left;
+}
+
+.home-container-reverse {
+    background: linear-gradient(#f6f6f6 0,#fff 100%);
+    background-position: top;
+    padding: 40px 20% 30px 20%;
+    height: 720px;
+    text-align: right;
+}
+
+footer {
+    font-size: 20px;
+    padding: 30px 20%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+    height: 200px;
+}
+
+.footer-left {
+    
+}
+
+.footer-rigth {
+    
+}
