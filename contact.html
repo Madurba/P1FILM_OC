@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="CSS/style.css" type="text/css" />
+        <script src="https://kit.fontawesome.com/ce4195dd67.js" crossorigin="anonymous"></script>
+
+        <title>Le Festival de l'année</title>
+    </head>
+
+    <body>
+<!--header-->
+        <header>
+            <a href="index.html"><img class="logo" src="images/logo2.png" alt="logo"></a>
+            <nav class="nav_links">
+                <ul>
+                    <li><a href="festival.html">Le festival</a></li>
+                    <li><a href="programmation.html"><span class="nav-style">La programmation</span></a></li>
+                    <li><a href="live.html">En live</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="background-contact">
+            <div class="background-title">
+                <h1>Ecrivez-nous <br />nous répondons sous 24h</h1>
+            </div>
+        </div>
+<!--page_content-->
+        <section class="home-programmation-wrapper">
+            <h3>Formulaire de contact</h3>
+            <div>
+                <form action="#" method="post">
+                    <div>
+                        <label for="madame">Madame</label>
+                        <input type="radio" value="madame" id="madame" name="civility">
+                        <label for="monsieur">Monsieur</label>
+                        <input type="radio" value="monsieur" id="monsieur" name="civility">
+                    </div>
+                    <div>
+                        <label for="name">Prénom</label>
+                        <input type="text" id="name" name="user_name">
+                    </div>
+                    <label for="lastname">Nom</label>
+                        <input type="text" id="lastname" name="user_lastename">
+                    </div>
+                    <div>
+                        <label for="mail">E-mail</label>
+                        <input type="email" id="mail" name="user_mail">
+                    </div>
+                    <div>
+                        <label for="mobile">Mobile</label>
+                        <input type="tel" id="mobile" name="user_mobile">
+                    </div>
+                    <div>
+                        <label for="msg">Message</label>
+                        <textarea id="msg" name="user_message" placeholder="Écrivez votre message"></textarea>
+                    </div>
+                    <div class="button">
+                        <button type="submit">Envoyer le message</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+<!--footer-->
+        <footer>
+            <div class="footer-wrapper">
+                <div class="footer-left">
+                    <p class="p-info">Infos pratiques</p>
+                    <div class="footer-left-content">
+                        <ul>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="festival.html">Le festival</a></li>
+                            <li><a href="legal-notice.html">Mentions légales</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <p class="p-follow">Suivez-nous !</p>
+                    <div class="social-media">
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook fa-2x"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram fa-2x"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter fa-2x"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <p class="copyright">made with <span style="color: red;"><i class="fas fa-heart"></i></span> by FlowDesign 2020</p>
+        </footer>
+        
+    </body>
+</html>
