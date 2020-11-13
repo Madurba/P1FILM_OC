@@ -1,0 +1,19 @@
+@media screen and (max-width: 1024px)
+{
+    * {
+        width: auto;
+    }
+
+    header {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0.8rem 20%;
+    }
+    
+    .nav_links li {
+        display: inline-block;
+        padding: 0 1.2rem;
+    }
+
+}

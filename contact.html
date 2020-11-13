@@ -16,7 +16,7 @@
             <nav class="nav_links">
                 <ul>
                     <li><a href="festival.html">Le festival</a></li>
-                    <li><a href="programmation.html"><span class="nav-style">La programmation</span></a></li>
+                    <li><a href="programmation.html"><span class="navlink-style">La programmation</span></a></li>
                     <li><a href="live.html">En live</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
@@ -30,37 +30,55 @@
 <!--page_content-->
         <section class="home-programmation-wrapper">
             <h3>Formulaire de contact</h3>
-            <div>
+            <div class="contact-form">
                 <form action="#" method="post">
                     <div>
-                        <label for="madame">Madame</label>
-                        <input type="radio" value="madame" id="madame" name="civility">
-                        <label for="monsieur">Monsieur</label>
-                        <input type="radio" value="monsieur" id="monsieur" name="civility">
+                        <label for="civility">Civilité :</label>
+                        <input class="input" type="radio" value="civility" id="civility" name="civility" />Madame
+                        <input class="input" type="radio" value="civility" name="civility" />Monsieur
                     </div>
                     <div>
-                        <label for="name">Prénom</label>
+                        <label for="name">Prénom :</label>
                         <input type="text" id="name" name="user_name">
                     </div>
-                    <label for="lastname">Nom</label>
+                    <div>
+                    <label for="lastname">Nom :</label>
                         <input type="text" id="lastname" name="user_lastename">
                     </div>
                     <div>
-                        <label for="mail">E-mail</label>
+                        <label for="mail">E-mail :</label>
                         <input type="email" id="mail" name="user_mail">
                     </div>
                     <div>
-                        <label for="mobile">Mobile</label>
+                        <label for="mobile">Mobile :</label>
                         <input type="tel" id="mobile" name="user_mobile">
                     </div>
                     <div>
-                        <label for="msg">Message</label>
+                        <label for="msg">Message :</label>
                         <textarea id="msg" name="user_message" placeholder="Écrivez votre message"></textarea>
                     </div>
-                    <div class="button">
+                    <div class="button-fs">
                         <button type="submit">Envoyer le message</button>
                     </div>
                 </form>
+            </div>
+        </section>
+        <section class="contact-wrapper-maps">
+            <h3>Nos coordonnées</h3>
+            <div class="home-container-maps">
+                <div class="home-maps-rigthside">
+                    <div class="rigthside-1">
+                        <h4>Les films de Plein Air...</h4>
+                        <p>Jennifer EDWARDS <br>08 rue de Rivoli | Paris 04 <br>Horaires : 10H00 - 18h00 <br>Tél : +33 1 45 99 06 16 <br>Mobile : +33 6 12 21 34 43 </p>
+                    </div>
+                    <div class="rigthside-2">
+                        <h4>Moyens de transports...</h4>
+                        <p> Metro ligne 1 | ligne 5 | ligne 7  <br>Bus 20 | 22 | 30 <br>Train ligne J | ligne L</p>
+                    </div>
+                </div>
+                <a href="https://www.google.fr/maps/place/8+Rue+de+Rivoli,+75004+Paris/@48.8554608,2.3583866,17z/data=!3m1!4b1!4m5!3m4!1s0x47e671fd893c39b3:0xbc124eed98ad022b!8m2!3d48.8554608!4d2.3605753!5m1!1e2" target="_blank"><img class="img-maps" src="images/Gmaps-contact.jpg" alt=""></a>
+
+
             </div>
         </section>
 <!--footer-->
@@ -72,7 +90,7 @@
                         <ul>
                             <li><a href="contact.html">Contact</a></li>
                             <li><a href="festival.html">Le festival</a></li>
-                            <li><a href="legal-notice.html">Mentions légales</a></li>
+                            <li><a href="terms.html">Mentions légales</a></li>
                         </ul>
                     </div>
                 </div>
